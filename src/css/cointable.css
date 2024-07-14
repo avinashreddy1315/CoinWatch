@@ -1,0 +1,15 @@
+#coindata{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px 5px 1px 5px;
+    overflow-y: scroll;
+    height: 425px;
+}
+
+.coin:hover{
+    background-color: #E5E4E2;
+}
+
+

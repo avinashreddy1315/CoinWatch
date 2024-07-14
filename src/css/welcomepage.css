@@ -1,0 +1,72 @@
+.welcomepage{
+    width: 350px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0px;
+    background-image: url('../images/bg.jpeg');
+    background-size: auto;
+    background-repeat: no-repeat;
+  }
+  
+  #logo_nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  #cryptowatch_logo{
+    width: 90px;
+    height: 90px;
+  }
+  #coinwatch_logo{
+    width: 250px;
+    height: 50px;
+  }
+  
+  .welcomepage_content{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .welcomepagebuttons{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .welcomepage_btn{
+    width: 250px;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 800;
+    outline: none;
+    display: inline-flex;
+    justify-content: space-between;
+    transition: 0.3s all ease;
+    
+  }
+  
+  #login_btn{
+    text-decoration: none;
+    background-color: #FF9671; 
+  }
+  
+  #signup_btn{
+    text-align: left;
+  }
+
+  .welcomepage_btn:hover{
+    transform: scale(1.04);
+  }
+  

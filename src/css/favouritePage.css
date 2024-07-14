@@ -1,0 +1,24 @@
+.fav_page{
+    margin: 7px;
+}
+
+.fav_page h4{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.fav_remove_btn{
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.no_fav_coins{
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+}

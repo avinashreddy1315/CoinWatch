@@ -1,0 +1,42 @@
+.wallet-container{
+    position: relative;
+    width: 350px;
+    height: 600px;
+    z-index: 1;
+}
+
+#wwww{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+
+#signout_btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+
+
+#wallet-logout{
+    background-color: transparent;  
+    border-radius: 50px;
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    padding: 5px;
+    z-index: 999;
+    
+}
+
+
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}

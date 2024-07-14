@@ -1,0 +1,42 @@
+.nav1{
+    position: relative;
+    padding: 5px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background:rgb(58, 21, 9);
+    height: 50px;
+    
+}
+
+
+#coinwatch{
+    width: 130px;
+    height: 30px;
+}
+
+#avatar{
+    width: 30px;
+    height: 30px;
+    font-size: 15px;
+    font-weight: bolder;
+    margin-left: 2rem;
+
+}
+
+
+#menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+
+#mmm{
+    padding-top: 25px;
+}
+
+
+

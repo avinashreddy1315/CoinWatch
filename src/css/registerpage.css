@@ -1,0 +1,122 @@
+#register{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+    position: relative;
+    top: 30px;
+    
+}
+
+#register_form{
+    justify-content: center;
+    align-items: center;
+}
+
+#registartion_paper{
+    height: 370px;
+    position: relative;
+}
+
+
+
+#regiater_btn_registercomponent_div{
+    position: absolute;
+    right: 30px;
+}
+
+
+
+
+
+#already_have_account{
+   position: relative;
+   top: 70px;
+    
+}
+
+
+
+/* CSS */
+#regiater_btn_registercomponent {
+  background: #FF4742;
+  border: 1px solid #FF4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 0px 12px 0px 0px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  transition: all 0.4s ease;
+}
+
+#regiater_btn_registercomponent:hover,
+#regiater_btn_registercomponent:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #FF4742;
+}
+#regiater_btn_registercomponent:active {
+  opacity: .5;
+}
+
+#seedphase_generator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#alert{
+    width: 310px;
+    border-radius: 10px;
+    padding: 5px 7px;
+    font-weight: 500;
+}
+
+#new_wallet{
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: rgb(83, 80, 80);
+    width: 100%;
+    
+}
+
+#new_wallet:hover{
+    color: black;
+    border: 1px solid black;
+}
+ 
+#back_btn{
+    padding: 0px 12px 0px 0px
+}
+
+#snack_bar{
+    position: absolute;
+    width: 100%;
+    top: -60px;
+}
+
+#other_signup_seedphase_generator{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+

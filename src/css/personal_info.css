@@ -1,0 +1,33 @@
+.personal_info{
+    margin: 7px;
+}
+
+
+.personal_info h4{
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.filed{
+    
+    padding-top: 10px;
+    padding-left: 10px;
+
+}
+
+.lal{
+    font-weight: bold;
+    font-size: 18px;
+    
+}
+.edit{
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit_save_button{
+    margin: 35px 20px;
+    float: right;
+}

@@ -1,0 +1,190 @@
+.details{
+  
+    color: black;
+    margin: 0px 1px;
+    padding: 10px;
+    overflow-y: scroll;
+    height: 550px;
+    padding-bottom: 70px;
+    
+}
+
+.coindetail-close{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.Coin-Image{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+}
+
+.chart-time{
+    margin-top: 16px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+    background-color: rgb(241, 245, 249);
+    border-radius: 10px;
+}
+
+.unSelected-time{
+    background-color: transparent;
+    border: none;
+    color: rgb(71 85 105);
+    font-weight: 700;
+    font-size: 15px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+
+.selected-time{
+    color: black;
+    background-color: rgb(255 255 255);
+    border: none;
+    padding: 3px 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3 ease-in;
+}
+
+
+.chart-loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.price{
+    display: flex;
+    
+    align-items: center;
+}
+
+
+
+.favourite_btn{
+    position: absolute;
+    bottom: 10px;
+    left: 35px;
+    display: inline-block;
+    
+}
+
+.favourite_btn button{
+    width: 250px;
+    padding: 10px 5px;
+    border-radius: 10px;
+    background-color: rgb(255 58 51);
+    border: none;
+    color: white;
+    font-weight: 700;
+    
+}
+
+.chart_type_PM{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.chart-type{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 160px;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: rgb(241, 245, 249);
+    border-radius: 10px;
+}
+
+.chart_type_LC{
+    width: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.chart_btn_LC{
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+
+}
+
+
+.chart-unselected{
+    border: none;
+    background-color: transparent;
+    padding: 4px 4px;
+}
+
+
+.chart-selected{
+    color: black;
+    background-color: rgb(255 255 255);
+    border: none;
+    padding: 0px 5px 0px 5px;
+    border-radius: 10px;
+    font-weight: bold;
+    transition: background-color 0.3 ease-in;
+}
+
+.data{
+    padding: 15px 0px;
+    margin: 0px -10px 0px -20px;
+}
+
+.data h6{
+    font-weight: 700;
+    color: rgb(15 23 42);
+    margin: 0px 15px 10px;
+   
+}
+
+.at{
+    margin-left: 47px;
+}
+
+.da{
+    color : rgb(100, 116, 139);
+    font-weight: 400;
+    font-size: .75rem;
+    margin-left: 33px;
+}
+
+
+
+.description h6{
+    font-weight: 700;
+    color: rgb(15 23 42);
+    padding: 15px 0px;
+    margin: 0px 3px;
+}
+
+
+.ReadMoreReadLess{
+    border: none;
+    background-color: transparent;
+    color: blue;
+}
+
+.about-coin{
+    color: rgb(100, 116, 139);
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 500;
+    overflow: hidden;
+}
+
+
+
