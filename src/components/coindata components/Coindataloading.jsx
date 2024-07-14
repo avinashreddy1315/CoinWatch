@@ -7,7 +7,7 @@ import { useState, useEffect } from 'react';
 function Coindataloading() {
     const { allCoin, loading, currency } = useCoin();
     const [skeletonCount, setSkeletonCount] = useState(0);
-    //n
+    
     useEffect(()=>{
         setSkeletonCount(allCoin.length)
         
