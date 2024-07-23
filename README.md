@@ -1,4 +1,4 @@
- ##CoinWatch
+## CoinWatch
 
 CoinWatch is a Google Chrome extension that allows users to keep track of cryptocurrency prices and manage their favorite coins. The extension offers various features including user authentication, real-time data retrieval from Firestore, and detailed coin information with historical data visualization.
 
@@ -65,8 +65,8 @@ To install and run the CoinWatch extension locally:
 
 Links
 
-Chrome Web Store: CoinWatch
-Live Demo: CoinWatch
+Chrome Web Store: https://chromewebstore.google.com/detail/cryptowatch/dkblgnpmcbchofckopipgkjehhheahdf
+Live Demo: https://coinwatch-extension.netlify.app
 
 
 
