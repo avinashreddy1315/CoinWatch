@@ -1,74 +1,69 @@
-HEAD
-# Getting Started with Create React App
+ CoinWatch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+CoinWatch is a Google Chrome extension that allows users to keep track of cryptocurrency prices and manage their favorite coins. The extension offers various features including user authentication, real-time data retrieval from Firestore, and detailed coin information with historical data visualization.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **User Authentication**: Secure login functionality with data storage in Firebase.
+- **Real-Time Coin Prices**: Fetches and displays the latest prices of cryptocurrencies using the CoinGecko API.
+- **Favorite List**: Users can add or remove coins from their favorite list.
+- **Currency Conversion**: Ability to change the displayed currency for coin prices.
+- **Filtering and Search**: Users can apply filters and search for specific coins.
+- **Historical Data Visualization**: Displays historical price data using line and candlestick graphs.
+- **Detailed Coin Information**: Provides previous details and historical data of each coin.
 
-### `npm start`
+## Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **React**: For building the user interface.
+- **JavaScript**: Core programming language for the project.
+- **Material-UI**: For styling and icons.
+- **ApexCharts**: For graphical representation of historical data.
+- **Firebase**: For user authentication and data storage.
+- **Firestore**: For real-time data retrieval and storage.
+- **CoinGecko API**: For providing real-time data on coin prices.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To install and run the CoinWatch extension locally:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
 
-### `npm run build`
+   ```sh
+   git clone https://github.com/avinashreddy1315/CoinWatch.git
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Navigate to the project directory:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+   ```sh
+   cd CoinWatch
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+3. Install the dependencies:
 
-### `npm run eject`
+   ```sh
+   npm install
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+4. Build the project:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+   ```sh
+   npm run build
+   ```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+5. Load the extension in Google Chrome:
+   - Open Chrome and go to `chrome://extensions/`
+   - Enable "Developer mode"
+   - Click "Load unpacked" and select the `build` directory
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Usage
 
-## Learn More
+- After installing the extension, click on the CryptoWatch icon in the Chrome toolbar to open the extension.
+- Log in with your credentials to access the features.
+- Use the search bar to find specific coins, apply filters to narrow down results, and add coins to your favorite list.
+- Change the displayed currency from the settings menu.
+- View detailed coin information and historical price data in various graphical formats.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-# CoinWatch
- 3d256ec1983c6ab1866f6f98b9998ed137a726df
+CryptoWatch is a Chrome extension for tracking cryptocurrency prices and managing favorites. It includes real-time data from CoinGecko API, user authentication, and powerful historical data visualization features.
