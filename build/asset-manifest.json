@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e76a0a1f.css",
+    "main.js": "/static/js/main.87ed0a11.js",
+    "static/js/453.7b9fae5e.chunk.js": "/static/js/453.7b9fae5e.chunk.js",
+    "static/media/logo.png": "/static/media/logo.c29976ba5e122b07a5ee.png",
+    "static/media/bg.jpeg": "/static/media/bg.e0573a7a00c8578e3731.jpeg",
+    "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
+    "static/media/google.png": "/static/media/google.3caa3cda6506e207301d.png",
+    "static/media/bootstrap-icons.woff2?": "/static/media/bootstrap-icons.b7bcc075b395c14ce8c2.woff2",
+    "static/media/coinwatchbgremoved.png": "/static/media/coinwatchbgremoved.a26f55ff51b4d174a00a.png",
+    "static/media/coinwatch1.png": "/static/media/coinwatch1.1c42f48ad845300334db.png",
+    "index.html": "/index.html",
+    "main.e76a0a1f.css.map": "/static/css/main.e76a0a1f.css.map",
+    "main.87ed0a11.js.map": "/static/js/main.87ed0a11.js.map",
+    "453.7b9fae5e.chunk.js.map": "/static/js/453.7b9fae5e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e76a0a1f.css",
+    "static/js/main.87ed0a11.js"
+  ]
+}
