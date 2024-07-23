@@ -14,13 +14,13 @@ CoinWatch is a Google Chrome extension that allows users to keep track of crypto
 
 ## Technologies Used
 
-- **React**: For building the user interface.
-- **JavaScript**: Core programming language for the project.
-- **Material-UI**: For styling and icons.
-- **ApexCharts**: For graphical representation of historical data.
-- **Firebase**: For user authentication and data storage.
-- **Firestore**: For real-time data retrieval and storage.
-- **CoinGecko API**: For providing real-time data on coin prices.
+- ![React](https://img.shields.io/badge/React-React.js-61DAFB?logo=react&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/JavaScript-JavaScript-F7DF1E?logo=javascript&logoColor=white)
+- ![Material-UI](https://img.shields.io/badge/Material--UI-Material--UI-0081CB?logo=material-ui&logoColor=white)
+- ![ApexCharts](https://img.shields.io/badge/ApexCharts-ApexCharts-FF4560?logo=apexcharts&logoColor=white)
+- ![Firebase](https://img.shields.io/badge/Firebase-Firebase-FFCA28?logo=firebase&logoColor=white)
+- ![Firestore](https://img.shields.io/badge/Firestore-Firebase--Firestore-FFCA28?logo=firebase&logoColor=white)
+- ![CoinGecko API](https://img.shields.io/badge/CoinGecko_API-CoinGecko_API-00A82D?logo=coin-gecko&logoColor=white)
 
 ## Installation
 
