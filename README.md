@@ -63,10 +63,10 @@ To install and run the CoinWatch extension locally:
 - Change the displayed currency from the settings menu.
 - View detailed coin information and historical price data in various graphical formats.
 
-Links
+## Links
 
-Chrome Web Store: https://chromewebstore.google.com/detail/cryptowatch/dkblgnpmcbchofckopipgkjehhheahdf
-Live Demo: https://coinwatch-extension.netlify.app
+- Chrome Web Store: https://chromewebstore.google.com/detail/cryptowatch/dkblgnpmcbchofckopipgkjehhheahdf
+- Live Demo: https://coinwatch-extension.netlify.app
 
 
 
