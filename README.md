@@ -69,6 +69,3 @@ To install and run the CoinWatch extension locally:
 - Live Demo: https://coinwatch-extension.netlify.app
 
 
-
-
-CryptoWatch is a Chrome extension for tracking cryptocurrency prices and managing favorites. It includes real-time data from CoinGecko API, user authentication, and powerful historical data visualization features.
