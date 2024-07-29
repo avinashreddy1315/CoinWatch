@@ -66,6 +66,6 @@ To install and run the CoinWatch extension locally:
 ## Links
 
 - Chrome Web Store: https://chromewebstore.google.com/detail/cryptowatch/dkblgnpmcbchofckopipgkjehhheahdf
-- Live Demo: https://coinwatch-extension.netlify.app
+- Live Demo: https://coin-watch-livid.vercel.app
 
 
