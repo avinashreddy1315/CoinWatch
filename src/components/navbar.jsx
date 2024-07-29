@@ -43,7 +43,6 @@ export default function NavBar({userdata}) {
             </div>
             <div className='sidemenu_btn' >
               <Sidebar avatarname={avatarname} />
-                
             </div>
             
         </nav>

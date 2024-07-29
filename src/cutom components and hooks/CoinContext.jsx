@@ -17,6 +17,7 @@ export const CoinContextProvider = (props)=>{
     const [search, setSearch] = useState('')
     const [userId, setUserId] = useState('')
     const [singlecoin, setSingleCoin] = useState()
+    const [trendingcoin, setTrendingCoin] = useState();
     
 
 
@@ -48,16 +49,36 @@ export const CoinContextProvider = (props)=>{
         
     }
 
+    const fetchTrendingCoin = async () =>{
+        const options = {
+            headers: {
+              accept: 'application/json',
+              'x-cg-demo-api-key': 'CG-GLQ8rCZdg9eL6ZKn7VUUVbfC'
+            }
+          };
+          let url = `https://api.coingecko.com/api/v3/coins/markets?vs_currency=${currency.value}`;
+        try {
+
+            const response = await axios.get(url, options);
+            setTrendingCoin(response.data);
+            //console.log(response.data)
+            
+        } catch (err) {
+            console.error(err);
+        }
+    }
+ 
     useEffect(() => {
         if(userId || currency){
             fetchAllCoin();
+            fetchTrendingCoin();
         }
         
         
         
     }, [currency, filter, search]);
 
-    const contextValue = {allCoin, currency, setCurrency, loading, filter, setFilter, setSearch, setUserId}
+    const contextValue = {allCoin, currency, setCurrency, loading, filter, setFilter, setSearch, setUserId, trendingcoin}
     return(
         <CoinContext.Provider value={contextValue}>
             {props.children}

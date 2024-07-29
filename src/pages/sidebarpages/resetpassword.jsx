@@ -40,7 +40,7 @@ function Resetpassword({ uid }) {
     if (sidebar) {
       setSidebar(!sidebar);
     }
-  }, [sidebar, setSidebar]);
+  }, []);
 
   const handleNext = async () => {
     if (activeStep === 0) {

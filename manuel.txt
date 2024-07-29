@@ -1,0 +1,6 @@
+bugs  
+
+   -> trending coins disappering when filter is applied and searched //fixed
+   -> all the dialog boxes likes filter, currncy change, logout,  search 
+        have to move to the right side  //fixed
+   -> and to fix the side bar height //fixed

@@ -17,19 +17,19 @@ export const UserProvider = ({ children }) => {
         const userDocSnapshot = await getDoc(userDocRef);
         setData(userDocSnapshot.data())
         
-        console.log(userDocSnapshot.data())
+        //console.log(userDocSnapshot.data())
     }
 
     useEffect(()=>{
         
-        console.log(userId)
+        //console.log(userId)
 
         if(userId){
             fetchuserdetails(userId)
             //updateuserdetails(dashchange)
             //setDashchange(data.dashchange)
         }
-        console.log(dashchange);
+        //console.log(dashchange);
         //fetchuserdetails(userId)
         
         

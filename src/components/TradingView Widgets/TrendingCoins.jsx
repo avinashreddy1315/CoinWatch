@@ -57,7 +57,7 @@ const PriceRed = styled(Price)(({ theme }) => ({
 }));
 
 function TrendingCoins() {
-  const { allCoin, currency } = useCoin();
+  const { allCoin, currency, trendingcoin } = useCoin();
   const [showCoins] = useState(['btc', 'eth', 'sol', 'bnb', 'doge']);
   const { setCoinId } = UseSingleCoin();
   const navigate = useNavigate();
@@ -78,25 +78,28 @@ function TrendingCoins() {
   };
 
   // Filter coins based on showCoins array
-  const trendingCoins = Object.values(allCoin)
-    .filter(coin => showCoins.includes(coin.symbol))
-    .map(coin => (
-      <CoinItem key={coin.symbol} onClick={() => GoCoin(coin.id)}>
-        <CoinImgName>
-          <Icon src={coin.image} alt='coin icon' />
-          <span>{coin.symbol.toUpperCase()}{currency.value.toUpperCase()}</span>
-        </CoinImgName>
-        {coin.price_change_percentage_24h > 0 ? (
-          <PriceGreen>
-            <ArrowDropUpIcon /> {currency.symbol} {formatPrice(coin.current_price)}
-          </PriceGreen>
-        ) : (
-          <PriceRed>
-            <ArrowDropDownIcon /> {currency.symbol} {formatPrice(coin.current_price)}
-          </PriceRed>
-        )}
-      </CoinItem>
-    ));
+  const trendingCoins = Object.values(trendingcoin)
+  .sort((a, b) => b.price_change_percentage_24h - a.price_change_percentage_24h)
+  .slice(0, 5)
+  .map(coin => (
+    <CoinItem key={coin.symbol} onClick={() => GoCoin(coin.id)}>
+      <CoinImgName>
+        <Icon src={coin.image} alt='coin icon' />
+        <span>{coin.symbol.toUpperCase()}{currency.value.toUpperCase()}</span>
+      </CoinImgName>
+      {coin.price_change_percentage_24h > 0 ? (
+        <PriceGreen>
+          <ArrowDropUpIcon /> {currency.symbol} {formatPrice(coin.current_price)}
+        </PriceGreen>
+      ) : (
+        <PriceRed>
+          <ArrowDropDownIcon /> {currency.symbol} {formatPrice(coin.current_price)}
+        </PriceRed>
+      )}
+    </CoinItem>
+  ));
+
+
 
   // Configure AliceCarousel options
   const carouselOptions = {

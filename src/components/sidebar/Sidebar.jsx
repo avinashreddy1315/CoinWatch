@@ -39,7 +39,7 @@ const SidebarNav = styled.nav`
 position:absolute;
 background: rgb(58, 21, 9);
 width:220px;
-height:95vh;
+height:100vh;  //Changed the side bar height to 100vh from 95vh
 z-index:999;
 top:0px;
 display: flex;

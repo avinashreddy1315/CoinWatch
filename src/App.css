@@ -12,6 +12,7 @@
 
 :root {
   --app-left: 100px; /* Default left position of App */
+  border-radius: 10px;
 }
 
 

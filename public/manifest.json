@@ -1,8 +1,8 @@
 {
   "manifest_version": 3,
-  "name": "CryptoWatch",
-  "version": "1.0.0",
-  "description": "CoinWatch cryptoCurrency price tracking Extension",
+  "name": "CoinWatch",
+  "version": "1.5.0",
+  "description": "A extension for cryptocurrency enthusiasts. Track prices, access detailed info, visualize trends, and manage favorite coins.",
   "action": {
     "default_popup": "index.html",
     "default_title": "open"
