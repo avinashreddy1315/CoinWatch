@@ -12,7 +12,7 @@
   ],
   "host_permissions": [
     "https://api.coingecko.com/"
-      ],
+  ],
   "icons": {
     "16": "logo-16.png",
     "32": "logo-32.png",
@@ -20,10 +20,6 @@
     "128": "logo-128.png"
   },
   "content_security_policy": {
-    "extension_pages": "script-src 'self'; object-src 'self';",
-    "script-src": [
-      "self",
-      "https://api.coingecko.com/"
-    ]
+    "extension_pages": "script-src 'self'; object-src 'self';"
   }
 }

@@ -217,7 +217,7 @@ export default function RegisterComponent() {
         } catch (error) {
             //console.log(error.message)
             setsnack(true);
-            setsnackmsg(error.message);
+            setsnackmsg(error.code);
             setseverity('error');
 
         }

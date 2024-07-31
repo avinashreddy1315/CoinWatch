@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.4984f7cf.css",
-    "main.js": "/static/js/main.f157fcab.js",
-    "static/js/453.7b9fae5e.chunk.js": "/static/js/453.7b9fae5e.chunk.js",
+    "main.js": "/static/js/main.9c0b5448.js",
+    "static/js/845.540be351.chunk.js": "/static/js/845.540be351.chunk.js",
     "static/media/logo.png": "/static/media/logo.c29976ba5e122b07a5ee.png",
     "static/media/bg.jpeg": "/static/media/bg.e0573a7a00c8578e3731.jpeg",
     "static/media/bootstrap-icons.woff?": "/static/media/bootstrap-icons.39795c0b4513de014cf8.woff",
@@ -12,11 +12,11 @@
     "static/media/coinwatch1.png": "/static/media/coinwatch1.1c42f48ad845300334db.png",
     "index.html": "/index.html",
     "main.4984f7cf.css.map": "/static/css/main.4984f7cf.css.map",
-    "main.f157fcab.js.map": "/static/js/main.f157fcab.js.map",
-    "453.7b9fae5e.chunk.js.map": "/static/js/453.7b9fae5e.chunk.js.map"
+    "main.9c0b5448.js.map": "/static/js/main.9c0b5448.js.map",
+    "845.540be351.chunk.js.map": "/static/js/845.540be351.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4984f7cf.css",
-    "static/js/main.f157fcab.js"
+    "static/js/main.9c0b5448.js"
   ]
 }

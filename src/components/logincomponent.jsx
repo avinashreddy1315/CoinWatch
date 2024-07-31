@@ -115,9 +115,9 @@ export default function LoginComponent() {
             
            
         }catch(error){
-            //console.log(error.message);
+            //console.log(error.code);
             setsnack(true);
-            setsnackmsg(error.message);
+            setsnackmsg(error.code);
             setseverity('error');
         }
 
